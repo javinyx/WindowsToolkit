@@ -3,21 +3,22 @@ A collection of **Windows 10 apps and scripts** to optimize user and poweruser e
 
 To make it in this list, apps must meet two or more of the following criteria:
 * *Open Source* / *Free to use*
-* *Customizable UI* / *Fluent Design*
+* *Theme Support*
+* *Plugin Support*
 * *Available in [Chocolatey Repository](https://community.chocolatey.org/packages)* / [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows)
 * *Cross-device compatibility*
 
 The list tries to give at least one alternative to each top pick for each app section, if a Chocolatey Package is available I prioritize it over the Microsoft Store alternative.
 
-## Why was this made?
+## Why was this repository made?
 
 I believe that Windows is still far behind in terms of application installation, making us of a packet manager like Chocolatey can help you keep track of what's installed and of updates.
 
-I also think that many applications are simply unknown to many people, therefore I want to give light to some of them. If, like me, you're using Windows, Android and iPadOS on a daily basis you will be able to find some nice cross-platform apps.
+I also think that many applications are simply unknown to many people, therefore I want to give light to some of them. If, like me, you're using Windows, Android and iOS on a daily basis you will be able to find some nice cross-platform apps.
 
 If you want to provide feedback please do so using GitHub Issues.
 
-# Applications
+## Chocolatey Installation
 
 While [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows) is pre-installed in Windows 10, [Chocolatey](https://chocolatey.org/install) is not, so here is how to install it.
 
@@ -41,14 +42,20 @@ While [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows) is p
 
 Now that the Chocolatey installation is done, let's get started!
 
-In the **Free** table section, if you see a `²` it means the application is also Open Source.
+# Applications
+
+If you haven't done so, make sure you install Chocolatey first at #Chocolatey Installation, if you have then you can move forward.
+
+**Notes**:
+1. In the **Free** table column, if you see a `²` it means the application is also Open Source.
+
 
 ## Browsers
-Application | Free | Design | Package | X-Device | Notes |
---- | --- | --- | --- | --- | --- |
-Google Chrome        | :heavy_check_mark: | Themes                   |                    |                    |                    |
-Microsoft Edge       | :heavy_check_mark: | Themes                   |                    |                    |                    |
-Mozilla Firefox      | :heavy_check_mark:²| Themes                   |                    |                    |                    |
+Application | Free | Themes | Plugins | Packages | Cross-Platform | Notes |
+----------- | ---- | ------ | ------- | -------- | -------------- | ----- |
+[Google Chrome](https://www.google.com/chrome/) | :heavy_check_mark: | :heavy_check_mark: [Browse](https://chrome.google.com/webstore/category/themes) | :heavy_check_mark: [Browse](https://chrome.google.com/webstore/category/extensions) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/GoogleChrome) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.microsoft.emmx&hl=en&gl=US), [iOS](https://apps.apple.com/app/id1288723196) | :star: Personal Favorite |
+[Microsoft Edge](https://www.microsoft.com/en-us/edge) | :heavy_check_mark: | :heavy_check_mark: [Browse](https://microsoftedge.microsoft.com/addons/microsoft-edge-themes) | :heavy_check_mark: [Browse](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/microsoft-edge) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.android.chrome&hl=en&gl=US), [iOS](https://apps.apple.com/us/app/google-chrome/id535886823) | New Chromium-based build |
+[Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) | :heavy_check_mark:² | :heavy_check_mark: [Browse](https://addons.mozilla.org/en-US/firefox/themes/) | :heavy_check_mark: [Browse](https://addons.mozilla.org/en-US/firefox/extensions/) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/Firefox) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en&gl=US), [iOS](https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926) | Great alternative to Chromium-based browsers |
 
 ## Text Editors
 - Notepad++
