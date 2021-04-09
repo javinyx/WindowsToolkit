@@ -41,12 +41,14 @@ While [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows) is p
 
 Now that the Chocolatey installation is done, let's get started!
 
+In the **Free** table section, if you see a `²` it means the application is also Open Source.
+
 ## Browsers
-Application | Free | Design | Ch / MS | X | Notes |
+Application | Free | Design | Package | X-Device | Notes |
 --- | --- | --- | --- | --- | --- |
-Google Chrome        | :heavy_check_mark: |                    |                    |                    |                    |
-Microsoft Edge       | :heavy_check_mark: |                    |                    |                    |                    |
-Mozilla Firefox      | :heavy_check_mark:	|                    |                    |                    |                    |
+Google Chrome        | :heavy_check_mark: | Themes                   |                    |                    |                    |
+Microsoft Edge       | :heavy_check_mark: | Themes                   |                    |                    |                    |
+Mozilla Firefox      | :heavy_check_mark:²| Themes                   |                    |                    |                    |
 
 ## Text Editors
 - Notepad++
