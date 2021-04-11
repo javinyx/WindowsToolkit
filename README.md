@@ -1,4 +1,5 @@
 # WindowsToolkit
+
 A collection of **Windows 10 apps and scripts** to optimize user and poweruser experience.
 
 To make it in this list, apps must meet two or more of the following criteria:
@@ -70,29 +71,37 @@ Now that the Chocolatey installation is done, let's get started!
 
 # Applications
 
-If you haven't done so already, make sure you install Chocolatey first at [Chocolatey Installation](#chocolatey-installation), if you have then you can move forward.
+If you haven't done so already, make sure you install Chocolatey first following [Chocolatey Installation](#chocolatey-installation), if you have then you can move forward.
 
 **Notes**:
 * In the **Free** table column, if you see a `²` it means the application is also Open Source.
-* I recommend using **Revo Uninstaller** to uninstall programs, instead of the default Windows method, this is because Revo also cleans any leftover files and registry entries.
+* I recommend using **Revo Uninstaller** to uninstall programs, instead of the default Windows method, this is because Revo also cleans any leftover files and registry entries, it won't break Chocolatey.
 * If you're unsure whether to download the **Microsoft Store** version or the **Chocolatey** package of an app then: if it's a very light app that does simple things then I would recommend the Microsoft Store version, otherways the Chocolatey package.
+* If you see that there is a **portable version** of the application, I would recommend giving it a try before installing.
 
 ## Browsers
 
 Application | Free | Themes | Plugins | Packages | Cross-Platform | Notes |
 ----------- | ---- | ------ | ------- | -------- | -------------- | ----- |
-[Google Chrome](https://www.google.com/chrome/) | :heavy_check_mark: | :heavy_check_mark: [Browse](https://chrome.google.com/webstore/category/themes) | :heavy_check_mark: [Browse](https://chrome.google.com/webstore/category/extensions) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/GoogleChrome) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.android.chrome&hl=en&gl=US), [iOS](https://apps.apple.com/us/app/google-chrome/id535886823) | :star: Most used browser due to simplicity and tools |
+[Google Chrome](https://www.google.com/chrome/) | :heavy_check_mark: | :heavy_check_mark: [Browse](https://chrome.google.com/webstore/category/themes) | :heavy_check_mark: [Browse](https://chrome.google.com/webstore/category/extensions) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/GoogleChrome) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.android.chrome&hl=en&gl=US), [iOS](https://apps.apple.com/us/app/google-chrome/id535886823) | :star: Most used browser due to its simplicity and tools |
 [Microsoft Edge](https://www.microsoft.com/en-us/edge) | :heavy_check_mark: | :heavy_check_mark: [Browse](https://microsoftedge.microsoft.com/addons/microsoft-edge-themes) | :heavy_check_mark: [Browse](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/microsoft-edge) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.microsoft.emmx&hl=en&gl=US), [iOS](https://apps.apple.com/app/id1288723196) | New Chromium-based build actually makes sense |
 [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) | :heavy_check_mark:² | :heavy_check_mark: [Browse](https://addons.mozilla.org/en-US/firefox/themes/) | :heavy_check_mark: [Browse](https://addons.mozilla.org/en-US/firefox/extensions/) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/Firefox) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en&gl=US), [iOS](https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926) | Great alternative to Chromium-based browsers |
-[Vivaldi](https://vivaldi.com/) | :heavy_check_mark: | :heavy_check_mark: In Settings | :heavy_check_mark: [Browse](https://chrome.google.com/webstore/category/extensions) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/Vivaldi/3.7.2218.49) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.vivaldi.browser&hl=en&gl=US) | Lovechild of Chrome and Opera, but on steroids |
+[Vivaldi](https://vivaldi.com/) | :heavy_check_mark: | :heavy_check_mark: In app | :heavy_check_mark: [Browse](https://chrome.google.com/webstore/category/extensions) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/Vivaldi/3.7.2218.49) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.vivaldi.browser&hl=en&gl=US) | Feature-child of Chrome and Opera, but on steroids |
 
 ## Email Clients
-- Mail
-- ThunderBird
+
+Application | Free | Themes | Plugins | Packages | Cross-Platform | Notes |
+----------- | ---- | ------ | ------- | -------- | -------------- | ----- |
+[Mail](https://www.microsoft.com/store/productId/9WZDNCRFHVQM) | :heavy_check_mark: | :heavy_check_mark: Fluent | :x: |:heavy_check_mark: [MS Store](https://www.microsoft.com/store/productId/9WZDNCRFHVQM) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en&gl=US), [iOS](https://apps.apple.com/us/app/microsoft-outlook/id951937596) | :star: Plain and simple, the mobile version is basically Outlook for Mobile |
+[MailSpring](https://getmailspring.com/) | :heavy_check_mark:² | :heavy_check_mark: In app | :x: |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/mailspring) | :x: | Hidden gem among the email clients |
+[Mozilla ThunderBird](https://www.thunderbird.net/en-US/) | :heavy_check_mark:² | :heavy_check_mark: [Browse](https://addons.thunderbird.net/en-US/thunderbird/static-themes/) | :heavy_check_mark: [Browse](https://addons.thunderbird.net/en-US/thunderbird/extensions/) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/thunderbird) | :x: | Great community, has amazing import and export features |
 
 ## Text Editors
-- Notepad++
-- Notepads
+
+Application | Free | Themes | Plugins | Packages | Cross-Platform | Notes |
+----------- | ---- | ------ | ------- | -------- | -------------- | ----- |
+[Notepad++](https://notepad-plus-plus.org/downloads/) | :heavy_check_mark:² | :heavy_check_mark: In app | :heavy_check_mark: [Browse](https://github.com/notepad-plus-plus/nppPluginList/blob/master/doc/plugin_list_x64.md) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/notepadplusplus), [MS Store (Unofficial)](https://www.microsoft.com/store/productId/9PHSCTZMKC27) | :x: | :star: Community favorite for a long time |
+[Notepads App](https://www.notepadsapp.com/) | :heavy_check_mark:² | :heavy_check_mark: Fluent | :x: |:heavy_check_mark: [MS Store](https://www.microsoft.com/store/productId/9NHL4NSC67WM) | :x: | Great looking new alternative for daily use |
 
 ## Code Editors
 - Visual Studio Code
@@ -145,7 +154,7 @@ Application | Free | Themes | Plugins | Packages | Cross-Platform | Notes |
 ## Social
 - Telegram
 - WhatsApp Web
-- Discord
+- Signal
 
 ## Password Managers
 - BitWarden
@@ -169,3 +178,5 @@ Application | Free | Themes | Plugins | Packages | Cross-Platform | Notes |
 - PowerToys
 - ShareX
 - Wallpaper Engine
+- 7-Zip
+- Discord
