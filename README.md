@@ -14,7 +14,7 @@ This list tries to give at least one alternative to every top pick for each app 
 ## Table of contents
 
 * [WindowsToolkit](#windowstoolkit)
-  * [Why was this repository made?](#why-was-this-repository-made-)
+  * [Why was this repository made?](#why-was-this-repository-made)
   * [Chocolatey Installation](#chocolatey-installation)
 * [Applications](#applications)
   * [Browsers](#browsers)
@@ -180,7 +180,7 @@ Application | Free | Themes | Plugins | Packages | Mobile | Notes |
 
 Application | Free | Themes | Plugins | Packages | Mobile | Notes |
 ----------- | ---- | ------ | ------- | -------- | ------ | ----- |
-[BitWarden](https://bitwarden.com/) | :heavy_check_mark:² | :heavy_check_mark: In app | :x: |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/bitwarden), [MS Store](https://www.microsoft.com/store/productId/9PJSDV0VPK04) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden&hl=en&utm_source=downloadatoz.com), [iOS](https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744) | Integrates everywhere wonderfully, if you want to use it I recommend installing the browser extension as well |
+[Bitwarden](https://bitwarden.com/) | :heavy_check_mark:² | :heavy_check_mark: In app | :x: |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/bitwarden), [MS Store](https://www.microsoft.com/store/productId/9PJSDV0VPK04) | :heavy_check_mark: [Android](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden&hl=en&utm_source=downloadatoz.com), [iOS](https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744) | Integrates everywhere wonderfully, if you want to use it I recommend installing the browser extension as well |
 [KeePass](https://keepass.info/) | :heavy_check_mark:² | :x: | :heavy_check_mark: [Browse](https://keepass.info/plugins.html) |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/keepass) | :heavy_check_mark: [Android](https://keepass.info/download.html), [iOS](https://keepass.info/download.html)  | Simple password manager with plugin support |
 
 ## Game Launchers
@@ -193,10 +193,12 @@ Application | Free | Themes | Plugins | Packages | Mobile | Notes |
 
 ## Finder Utilities
 
-- 7-Zip
-- File Converter
-- QTTabBar
-- Files
+Application | Free | Themes | Plugins | Packages | Mobile | Notes |
+----------- | ---- | ------ | ------- | -------- | ------ | ----- |
+[7-Zip](https://www.7-zip.org/) | :heavy_check_mark:² | :x: | :x: |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/7zip/19.0), [MS Store (Unofficial)](https://www.microsoft.com/store/productId/9MZ81RMK8JFD)  | :x: | The best archive manager, period. |
+[File Converter](https://file-converter.org/?from=readme.md) | :heavy_check_mark:² | :x: | :x: |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/file-converter) | :x: | Very cool finder extension to quickly convert photos, audio, videos and documents. |
+[Files](https://files-community.github.io/) | :heavy_check_mark:² | :heavy_check_mark: Fluent design | :x: |:heavy_check_mark: [Choco](https://community.chocolatey.org/packages/files), [MS Store](https://www.microsoft.com/store/productId/9NGHP3DX8HDX) | :x: | Very cool and modern file explorer alternative. |
+[QTTabBar](http://qttabbar.wikidot.com/) | :heavy_check_mark: | :x: | :heavy_check_mark: In app | :heavy_check_mark: [Choco](https://community.chocolatey.org/packages/QTTabBar) | :x: | File Explorer extension which lets you have tabs and a few other functionalities. |
 
 ## Audio Utilities
 
@@ -213,6 +215,7 @@ Application | Free | Themes | Plugins | Packages | Mobile | Notes |
 - PowerToys
 - EarTrumpet
 - ShareX
+- Snip & Sketch
 
 ## Discord
 
@@ -222,7 +225,7 @@ Application | Free | Themes | Plugins | Packages | Mobile | Notes |
 ## Aesthetics
 
 - ModernFlyouts
-- RainMeter
+- Rainmeter
 - Wallpaper Engine
 
 ## Others
