@@ -1,5 +1,7 @@
 # WindowsToolkit
 
+## THIS REPO WILL BE UPDATED ONCE WINDOWS 11 COMES OUT WITH THE USE OF WINGET
+
 A collection of **Windows 10 apps and scripts** to optimize user and poweruser experience.
 
 To make it in this list, apps must meet two or more of the following criteria:
