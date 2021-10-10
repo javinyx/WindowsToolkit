@@ -24,7 +24,7 @@ If you would like to provide feedback please do so by using GitHub Issues.
     - [🌍 Browsers](#-browsers)
     - [📬 Email Clients](#-email-clients)
     - [☑️ To do lists](#️-to-do-lists)
-    - [📝 Text Editors](#-text-editors)
+    - [🖊️ Text Editors](#️-text-editors)
     - [⌨️ Code Editors](#️-code-editors)
     - [🚀 Terminals](#-terminals)
     - [📁 FTP Clients](#-ftp-clients)
@@ -38,11 +38,11 @@ If you would like to provide feedback please do so by using GitHub Issues.
     - [🎧 Media Utilities](#-media-utilities)
     - [⚡ Windows Enhancements](#-windows-enhancements)
     - [💬 Discord](#-discord)
-    - [Desktop](#desktop)
+    - [🏔️ Desktop](#️-desktop)
+    - [📝 Note Taking](#-note-taking)
     - [Music and Sound](#music-and-sound)
     - [Development](#development)
     - [Remote Control](#remote-control)
-    - [Note Taking](#note-taking)
 
 </br>
 
@@ -85,7 +85,7 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 </br>
 
-### 📝 Text Editors
+### 🖊️ Text Editors
 
 |                   Application                    | Price |                   Themes                   |                                          Plugins                                           |                                 MS Store                                  |                    Winget                    | Mobile |
 |:------------------------------------------------:|:-----:|:------------------------------------------:|:------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:--------------------------------------------:|:------:|
@@ -221,15 +221,27 @@ If you would like to provide feedback please do so by using GitHub Issues.
 |             Application             | Price |              Themes               | Plugins | MS Store |                  Winget                  |                                                                        Mobile                                                                         |
 |:-----------------------------------:|:-----:|:---------------------------------:|:-------:|:--------:|:----------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
 | **[Discord](https://discord.com/)** |  🆓   | [🟡](#-discord "Light/Dark mode") |    ❌    |    ❌     | `winget install -e --id Discord.Discord` | [🤖](https://play.google.com/store/apps/details?id=com.discord&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/discord-talk-chat-hangout/id985746746) |
-|  **[PreMid](https://premid.app/)**  |  🆓   |                 ❌                 |    ❌    |    ❌     |                    ❌                     |                                                                           ❌                                                                           |
+|  **[PreMid](https://premid.app/)**  |  🆓²  |                 ❌                 |    ❌    |    ❌     |                    ❌                     |                                                                           ❌                                                                           |
 
 </br>
 
-### Desktop
+### 🏔️ Desktop
 
-- Lively Wallpaper
-- Rainmeter
-- Wallpaper Engine
+|                           Application                           | Price |                                Themes                                |                               Plugins                                |                          MS Store                           | Winget |            Mobile             |
+|:---------------------------------------------------------------:|:-----:|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-----------------------------------------------------------:|:------:|:-----------------------------:|
+| **[Lively Wallpaper](https://rocksdanister.github.io/lively/)** |  🆓²  |           [🟡](#-desktop "Light/Dark mode, Fluent design")           |                                  ❌                                   | [✔️](https://www.microsoft.com/store/productId/9NTM2QC6QWS7) |   ❌    |                               |
+|           **[Rainmeter](https://www.rainmeter.net/)**           |  🆓²  | [🟡](https://visualskins.com/ "Many more skins across the internet") | [🟡](https://visualskins.com/ "Many more skins across the internet") |                              ❌                              |   ❌    |               ❌               |
+|           **[Wallpaper Engine](https://premid.app/)**           |  🆓   |              [🟡](#-desktop "Selectable themes in app")              |                                  ❌                                   |                              ❌                              |   ❌    | [🤖](#-desktop "Coming Soon") |
+
+</br>
+
+### 📝 Note Taking
+
+|                Application                | Price |                     Themes                     |                      Plugins                      |                          MS Store                           |                     Winget                     |                                                                                Mobile                                                                                |
+|:-----------------------------------------:|:-----:|:----------------------------------------------:|:-------------------------------------------------:|:-----------------------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **[Simplenote](https://simplenote.com/)** |  🆓   |     [🟡](#-note-taking "Light/Dark mode")      |                         ❌                         | [✔️](https://www.microsoft.com/store/productId/9NXQQ40LDW3X) | `winget install -e --id Automattic.Simplenote` | [🤖](https://play.google.com/store/apps/details?id=com.automattic.simplenote&hl=en&gl=US) [🍎](https://apps.apple.com/it/app/simplenote-notes-and-todos/id289429962) |
+|   **[Obsidian](https://obsidian.md/)**    |  🆓   | [🟡](#-note-taking "Selectable themes in app") |         [✔️](https://obsidian.md/plugins)          |                              ❌                              |   `winget install -e --id Obsidian.Obsidian`   |        [🤖](https://play.google.com/store/apps/details?id=md.obsidian&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)         |
+|   **[Joplin](https://joplinapp.org/)**    |  🆓²  | [🟡](#-note-taking "Selectable themes in app") | [✔️](https://discourse.joplinapp.org/c/plugins/18) |                              ❌                              |     `winget install -e --id Joplin.Joplin`     |               [🤖](https://play.google.com/store/apps/details?id=net.cozic.joplin&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/joplin/id1315599797)               |
 
 </br>
 
@@ -250,11 +262,3 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 - AnyDesk
 - TeamViewer
-
-</br>
-
-### Note Taking
-
-- Simplenote
-- Obsidian
-- Joplin
