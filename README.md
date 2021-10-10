@@ -35,21 +35,24 @@ If you would like to provide feedback please do so by using GitHub Issues.
     - [🔐 Password Managers](#-password-managers)
     - [🎮 Game Launchers](#-game-launchers)
     - [🗄️ File Explorer Utilities](#️-file-explorer-utilities)
-    - [Audio Utilities](#audio-utilities)
-    - [Windows Utilities](#windows-utilities)
-    - [Discord](#discord)
-    - [Aesthetics](#aesthetics)
-    - [Others](#others)
+    - [🎧 Media Utilities](#-media-utilities)
+    - [⚡ Windows Enhancements](#-windows-enhancements)
+    - [💬 Discord](#-discord)
+    - [Desktop](#desktop)
+    - [Music and Sound](#music-and-sound)
+    - [Development](#development)
+    - [Remote Control](#remote-control)
+    - [Note Taking](#note-taking)
 
 </br>
 
 ## ⚙️ Applications
 
 - In the **Price** table column, if you see a `²` it means the application is also *open source*.
-- If themes or plugins/extensions are available, click on the ✔️ to browse them, or hover them for more information.
-- If you see a 🟡, hover over it to read a note.
+- If themes or plugins/extensions are available, click on the ✔️ to browse them.
+- If you see a 🟡, hover over it to read more information.
 - I recommend using [Revo Uninstaller](https://www.revouninstaller.com/revo-uninstaller-free-download/) to uninstall programs, instead of the default Windows method, this is because Revo also cleans any leftover files and registry entries.
-- I also recommend changing the **Options -> Uninstaller** options to have `Check mark all leftovers by default` and `Forcibly stop running executable files during their uninstall` checked, while the rest of the options unchecked.
+- I also recommend changing **Options -> Uninstaller** in Revo to have `Check mark all leftovers by default` and `Forcibly stop running executable files during their uninstall` checked, while the rest of the options unchecked.
 
 </br>
 
@@ -75,9 +78,10 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 ### ☑️ To do lists
 
-|                        Application                        | Price |                        Themes                        | Plugins |                          MS Store                           | Winget |                                                                        Mobile                                                                        |
-|:---------------------------------------------------------:|:-----:|:----------------------------------------------------:|:-------:|:-----------------------------------------------------------:|:------:|:----------------------------------------------------------------------------------------------------------------------------------------------------:|
-| **[Microsoft To Do](https://to-do.microsoft.com/tasks/)** |  🆓   | [🟡](#-to-do-lists "Light/Dark mode, Fluent design") |    ❌    | [✔️](https://www.microsoft.com/store/productId/9NBLGGH5R558) |   ❌    | [🤖](https://play.google.com/store/apps/details?id=com.microsoft.todos&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/microsoft-to-do/id1212616790) |
+|                        Application                        | Price |                        Themes                        |                      Plugins                      |                          MS Store                           | Winget |                                                                        Mobile                                                                        |
+|:---------------------------------------------------------:|:-----:|:----------------------------------------------------:|:-------------------------------------------------:|:-----------------------------------------------------------:|:------:|:----------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **[Microsoft To Do](https://to-do.microsoft.com/tasks/)** |  🆓   | [🟡](#-to-do-lists "Light/Dark mode, Fluent design") |                         ❌                         | [✔️](https://www.microsoft.com/store/productId/9NBLGGH5R558) |   ❌    | [🤖](https://play.google.com/store/apps/details?id=com.microsoft.todos&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/microsoft-to-do/id1212616790) |
+|           **[Trello](https://trello.com/home)**           |  🆓   |      [🟡](#-to-do-lists "Customizable themes")       | [🟡](#-to-do-lists "Many 3rd party integrations") | [✔️](https://www.microsoft.com/store/productId/9NBLGGH4XXVW) |   ❌    | [🤖](https://play.google.com/store/apps/details?id=com.trello&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/trello-organize-anything/id461504587)  |
 
 </br>
 
@@ -185,40 +189,72 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 </br>
 
-### Audio Utilities
+### 🎧 Media Utilities
 
-- VB-AudioCable
-- VoiceMeeter
-- Audacity
-- fre:ac
-- Mp3Tag
+|                          Application                          | Price |                  Themes                   |                       Plugins                        |                          MS Store                           |                       Winget                        | Mobile |
+|:-------------------------------------------------------------:|:-----:|:-----------------------------------------:|:----------------------------------------------------:|:-----------------------------------------------------------:|:---------------------------------------------------:|:------:|
+|         **[Audacity](https://www.audacityteam.org/)**         |  🆓²  | [🟡](#-media-utilities "Light/Dark mode") | [✔️](https://www.audacityteam.org/download/plug-ins/) |                              ❌                              |     `winget install -e --id Audacity.Audacity`      |   ❌    |
+|             **[Fre:ac](https://www.freac.org/)**              |  🆓²  |                     ❌                     |                          ❌                           | [✔️](https://www.microsoft.com/store/productId/9P1XD8ZQJ7JD) |                          ❌                          |   ❌    |
+|            **[Handbrake](https://handbrake.fr/)**             |  🆓²  | [🟡](#-media-utilities "Light/Dark mode") |                          ❌                           |                              ❌                              | `winget install -e --id thehandbraketeam.handbrake` |   ❌    |
+|            **[Mp3Tag](https://www.mp3tag.de/en/)**            |  🆓   |                     ❌                     |                          ❌                           | [✔️](https://www.microsoft.com/store/productId/9NN77TCQ1NC8) |       `winget install -e --id Mp3tag.Mp3tag`        |   ❌    |
+|       **[VB-AudioCable](https://vb-audio.com/Cable/)**        |  🆓   |                     ❌                     |                          ❌                           |                              ❌                              |                          ❌                          |   ❌    |
+| **[Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm)** |  🆓   |                     ❌                     |                          ❌                           |                              ❌                              | `winget install -e --id VB-Audio.VoiceMeeterPotato` |   ❌    |
 
-### Windows Utilities
+</br>
 
-- Revo Uninstaller
-- Everything
-- PowerToys
-- EarTrumpet
-- ShareX
+### ⚡ Windows Enhancements
 
-### Discord
+|                           Application                           | Price |                            Themes                             | Plugins |                          MS Store                           |                          Winget                          |                                                Mobile                                                 |
+|:---------------------------------------------------------------:|:-----:|:-------------------------------------------------------------:|:-------:|:-----------------------------------------------------------:|:--------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
+|            **[EarTrumpet](https://eartrumpet.app/)**            |  🆓²  | [🟡](#-windows-enhancements "Light/Dark mode, Fluent design") |    ❌    | [✔️](https://www.microsoft.com/store/productId/9NBLGGH516XP) |   `winget install -e --id File-New-Project.EarTrumpet`   |                                                   ❌                                                   |
+|          **[Everything](https://www.voidtools.com/)**           |  🆓   |                               ❌                               |    ❌    |                              ❌                              |      `winget install -e --id voidtools.Everything`       |                                                   ❌                                                   |
+| **[ModernFlyouts](https://modernflyouts-community.github.io/)** |  🆓²  | [🟡](#-windows-enhancements "Light/Dark mode, Fluent design") |    ❌    | [✔️](https://www.microsoft.com/store/productId/9MT60QV066RP) |   `winget install -e --id ModernFlyouts.ModernFlyouts`   |                                                   ❌                                                   |
+|     **[PowerToys](https://github.com/microsoft/PowerToys)**     |  🆓²  | [🟡](#-windows-enhancements "Light/Dark mode, Fluent design") |    ❌    |                              ❌                              |       `winget install -e --id Microsoft.PowerToys`       |                                                   ❌                                                   |
+|    **[Revo Uninstaller](https://www.revouninstaller.com/)**     |  🆓   |                               ❌                               |    ❌    |                              ❌                              | `winget install -e --id RevoUninstaller.RevoUninstaller` | [🤖](https://play.google.com/store/apps/details?id=com.vsrevogroup.revouninstallermobile&hl=en&gl=US) |
+|  **[RightKeyboard](https://github.com/mnivet/RightKeyboard)**   |  🆓²  |                               ❌                               |    ❌    |                              ❌                              |                            ❌                             |                                                   ❌                                                   |
+|              **[ShareX](https://getsharex.com/)**               |  🆓²  |    [🟡](#-windows-enhancements "Selectable themes in app")    |    ❌    | [✔️](https://www.microsoft.com/store/productId/9NBLGGH4Z1SP) |          `winget install -e --id ShareX.ShareX`          |                                                   ❌                                                   |
 
-- Discord
-- PreMid
+</br>
 
-### Aesthetics
+### 💬 Discord
 
-- ModernFlyouts
+|             Application             | Price |              Themes               | Plugins | MS Store |                  Winget                  |                                                                        Mobile                                                                         |
+|:-----------------------------------:|:-----:|:---------------------------------:|:-------:|:--------:|:----------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **[Discord](https://discord.com/)** |  🆓   | [🟡](#-discord "Light/Dark mode") |    ❌    |    ❌     | `winget install -e --id Discord.Discord` | [🤖](https://play.google.com/store/apps/details?id=com.discord&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/discord-talk-chat-hangout/id985746746) |
+|  **[PreMid](https://premid.app/)**  |  🆓   |                 ❌                 |    ❌    |    ❌     |                    ❌                     |                                                                           ❌                                                                           |
+
+</br>
+
+### Desktop
+
+- Lively Wallpaper
 - Rainmeter
 - Wallpaper Engine
 
-### Others
+</br>
+
+### Music and Sound
 
 - SoundPad
 - Touch Portal
-- Spotify
+
+</br>
+
+### Development
+
 - Local
-- JetBrains Toolbox
+
+</br>
+
+### Remote Control
+
 - AnyDesk
+- TeamViewer
+
+</br>
+
+### Note Taking
+
 - Simplenote
-- RightKeyboard
+- Obsidian
+- Joplin
