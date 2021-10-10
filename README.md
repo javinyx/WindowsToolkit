@@ -24,25 +24,24 @@ If you would like to provide feedback please do so by using GitHub Issues.
     - [🌍 Browsers](#-browsers)
     - [📬 Email Clients](#-email-clients)
     - [☑️ To do lists](#️-to-do-lists)
+    - [📝 Note Taking](#-note-taking)
     - [🖊️ Text Editors](#️-text-editors)
     - [⌨️ Code Editors](#️-code-editors)
     - [🚀 Terminals](#-terminals)
     - [📁 FTP Clients](#-ftp-clients)
     - [⏬ Torrent Clients](#-torrent-clients)
+    - [🎧 Media Utilities](#-media-utilities)
     - [🎬 Media Players](#-media-players)
+    - [🎵 Music & Sound](#-music--sound)
     - [🖼️ Photo Viewers](#️-photo-viewers)
     - [📖 PDF Readers](#-pdf-readers)
     - [🔐 Password Managers](#-password-managers)
     - [🎮 Game Launchers](#-game-launchers)
-    - [🗄️ File Explorer Utilities](#️-file-explorer-utilities)
-    - [🎧 Media Utilities](#-media-utilities)
-    - [⚡ Windows Enhancements](#-windows-enhancements)
     - [💬 Discord](#-discord)
+    - [⚡ Windows Enhancements](#-windows-enhancements)
+    - [🗄️ File Explorer Utilities](#️-file-explorer-utilities)
     - [🏔️ Desktop](#️-desktop)
-    - [📝 Note Taking](#-note-taking)
-    - [Music and Sound](#music-and-sound)
-    - [Development](#development)
-    - [Remote Control](#remote-control)
+    - [📶 Remote Control](#-remote-control)
 
 </br>
 
@@ -82,6 +81,16 @@ If you would like to provide feedback please do so by using GitHub Issues.
 |:---------------------------------------------------------:|:-----:|:----------------------------------------------------:|:-------------------------------------------------:|:-----------------------------------------------------------:|:------:|:----------------------------------------------------------------------------------------------------------------------------------------------------:|
 | **[Microsoft To Do](https://to-do.microsoft.com/tasks/)** |  🆓   | [🟡](#-to-do-lists "Light/Dark mode, Fluent design") |                         ❌                         | [✔️](https://www.microsoft.com/store/productId/9NBLGGH5R558) |   ❌    | [🤖](https://play.google.com/store/apps/details?id=com.microsoft.todos&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/microsoft-to-do/id1212616790) |
 |           **[Trello](https://trello.com/home)**           |  🆓   |      [🟡](#-to-do-lists "Customizable themes")       | [🟡](#-to-do-lists "Many 3rd party integrations") | [✔️](https://www.microsoft.com/store/productId/9NBLGGH4XXVW) |   ❌    | [🤖](https://play.google.com/store/apps/details?id=com.trello&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/trello-organize-anything/id461504587)  |
+
+</br>
+
+### 📝 Note Taking
+
+|                Application                | Price |                     Themes                     |                      Plugins                      |                          MS Store                           |                     Winget                     |                                                                                Mobile                                                                                |
+|:-----------------------------------------:|:-----:|:----------------------------------------------:|:-------------------------------------------------:|:-----------------------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|   **[Joplin](https://joplinapp.org/)**    |  🆓²  | [🟡](#-note-taking "Selectable themes in app") | [✔️](https://discourse.joplinapp.org/c/plugins/18) |                              ❌                              |     `winget install -e --id Joplin.Joplin`     |               [🤖](https://play.google.com/store/apps/details?id=net.cozic.joplin&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/joplin/id1315599797)               |
+|   **[Obsidian](https://obsidian.md/)**    |  🆓   | [🟡](#-note-taking "Selectable themes in app") |         [✔️](https://obsidian.md/plugins)          |                              ❌                              |   `winget install -e --id Obsidian.Obsidian`   |        [🤖](https://play.google.com/store/apps/details?id=md.obsidian&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)         |
+| **[Simplenote](https://simplenote.com/)** |  🆓   |     [🟡](#-note-taking "Light/Dark mode")      |                         ❌                         | [✔️](https://www.microsoft.com/store/productId/9NXQQ40LDW3X) | `winget install -e --id Automattic.Simplenote` | [🤖](https://play.google.com/store/apps/details?id=com.automattic.simplenote&hl=en&gl=US) [🍎](https://apps.apple.com/it/app/simplenote-notes-and-todos/id289429962) |
 
 </br>
 
@@ -130,6 +139,19 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 </br>
 
+### 🎧 Media Utilities
+
+|                          Application                          | Price |                  Themes                   |                       Plugins                        |                          MS Store                           |                       Winget                        | Mobile |
+|:-------------------------------------------------------------:|:-----:|:-----------------------------------------:|:----------------------------------------------------:|:-----------------------------------------------------------:|:---------------------------------------------------:|:------:|
+|         **[Audacity](https://www.audacityteam.org/)**         |  🆓²  | [🟡](#-media-utilities "Light/Dark mode") | [✔️](https://www.audacityteam.org/download/plug-ins/) |                              ❌                              |     `winget install -e --id Audacity.Audacity`      |   ❌    |
+|             **[Fre:ac](https://www.freac.org/)**              |  🆓²  |                     ❌                     |                          ❌                           | [✔️](https://www.microsoft.com/store/productId/9P1XD8ZQJ7JD) |                          ❌                          |   ❌    |
+|            **[Handbrake](https://handbrake.fr/)**             |  🆓²  | [🟡](#-media-utilities "Light/Dark mode") |                          ❌                           |                              ❌                              | `winget install -e --id thehandbraketeam.handbrake` |   ❌    |
+|            **[Mp3Tag](https://www.mp3tag.de/en/)**            |  🆓   |                     ❌                     |                          ❌                           | [✔️](https://www.microsoft.com/store/productId/9NN77TCQ1NC8) |       `winget install -e --id Mp3tag.Mp3tag`        |   ❌    |
+|       **[VB-AudioCable](https://vb-audio.com/Cable/)**        |  🆓   |                     ❌                     |                          ❌                           |                              ❌                              |                          ❌                          |   ❌    |
+| **[Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm)** |  🆓   |                     ❌                     |                          ❌                           |                              ❌                              | `winget install -e --id VB-Audio.VoiceMeeterPotato` |   ❌    |
+
+</br>
+
 ### 🎬 Media Players
 
 |                   Application                    | Price |                     Themes                     |                           Plugins                           |                                              MS Store                                              |                 Winget                  |                                                                     Mobile                                                                      |
@@ -137,6 +159,15 @@ If you would like to provide feedback please do so by using GitHub Issues.
 | **[Mpv.net](https://github.com/stax76/mpv.net)** |  🆓²  |  [🟡](#-media-players "Customizable themes")   |                              ❌                              |                                                 ❌                                                  | `winget install -e --id stax76.mpv.net` |                                         [🤖](https://play.google.com/store/apps/details?id=is.xyz.mpv)                                          |
 |   **[PotPlayer](https://potplayer.daum.net/)**   |  🆓   | [✔️](https://daumpotplayer.com/category/skins/) |                              ❌                              |                                                 ❌                                                  | `winget install -e --id Daum.Potplayer` |                                                                        ❌                                                                        |
 |     **[VLC](https://www.videolan.org/vlc/)**     |  🆓²  |  [✔️](https://www.videolan.org/vlc/skins.html)  | [✔️](https://addons.videolan.org/browse/cat/323/ord/latest/) | [🟡](https://www.microsoft.com/store/productId/9NBLGGH4VVNH "Different from the original version") |  `winget install -e --id VideoLAN.VLC`  | [🤖](https://play.google.com/store/apps/details?id=org.videolan.vlc&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/vlc-for-mobile/id650377962) |
+
+</br>
+
+### 🎵 Music & Sound
+
+|                    Application                    |              Price              |                            Themes                             |                            Plugins                             | MS Store | Winget |                                                                Mobile                                                                |
+|:-------------------------------------------------:|:-------------------------------:|:-------------------------------------------------------------:|:--------------------------------------------------------------:|:--------:|:------:|:------------------------------------------------------------------------------------------------------------------------------------:|
+| **[SoundPad](https://leppsoft.com/soundpad/en/)** |           **€ 4.99**            |        [🟡](#-music--sound "Selectable themes in app")        |                               ❌                                |    ❌     |   ❌    |                                                                  ❌                                                                   |
+| **[Touch Portal](https://www.touch-portal.com/)** | [🟡](#-music--sound "Freemium") | [✔️](https://www.touch-portal.com/assetsdb/show-all.php?cat=i) | [✔️](https://www.touch-portal.com/assetsdb/show-all.php?cat=pl) |    ❌     |   ❌    | [🤖](https://play.google.com/store/apps/details?id=rils.apps.touchportal) [🍎](https://apps.apple.com/app/touch-portal/id1410172542) |
 
 </br>
 
@@ -178,27 +209,12 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 </br>
 
-### 🗄️ File Explorer Utilities
+### 💬 Discord
 
-|                           Application                            | Price |                                  Themes                                  |                          Plugins                           |                                 MS Store                                  |                        Winget                        | Mobile |
-|:----------------------------------------------------------------:|:-----:|:------------------------------------------------------------------------:|:----------------------------------------------------------:|:-------------------------------------------------------------------------:|:----------------------------------------------------:|:------:|
-|               **[7-Zip](https://www.7-zip.org/)**                |  🆓²  | [🟡](https://github.com/huanrenfeng/7zipDarkmode "Unofficial dark mode") |                             ❌                              | [🟡](https://www.microsoft.com/store/productId/9MZ81RMK8JFD "Unofficial") |          `winget install -e --id 7zip.7zip`          |   ❌    |
-| **[File Converter](https://file-converter.org/?from=readme.md)** |  🆓²  |                                    ❌                                     |                             ❌                              |                                     ❌                                     | `winget install -e --id FileConverter.FileConverter` |   ❌    |
-|         **[Files](https://files-community.github.io/)**          |  🆓²  |     [🟡](#️-file-explorer-utilities "Light/Dark mode, Fluent design")     |                             ❌                              |        [✔️](https://www.microsoft.com/store/productId/9NGHP3DX8HDX)        |    `winget install -e --id Files-Community.Files`    |   ❌    |
-|           **[QTTabBar](http://qttabbar.wikidot.com/)**           |  🆓   |                                    ❌                                     | [✔️](#️-file-explorer-utilities "Selectable plugins in app") |                                     ❌                                     |                          ❌                           |   ❌    |
-
-</br>
-
-### 🎧 Media Utilities
-
-|                          Application                          | Price |                  Themes                   |                       Plugins                        |                          MS Store                           |                       Winget                        | Mobile |
-|:-------------------------------------------------------------:|:-----:|:-----------------------------------------:|:----------------------------------------------------:|:-----------------------------------------------------------:|:---------------------------------------------------:|:------:|
-|         **[Audacity](https://www.audacityteam.org/)**         |  🆓²  | [🟡](#-media-utilities "Light/Dark mode") | [✔️](https://www.audacityteam.org/download/plug-ins/) |                              ❌                              |     `winget install -e --id Audacity.Audacity`      |   ❌    |
-|             **[Fre:ac](https://www.freac.org/)**              |  🆓²  |                     ❌                     |                          ❌                           | [✔️](https://www.microsoft.com/store/productId/9P1XD8ZQJ7JD) |                          ❌                          |   ❌    |
-|            **[Handbrake](https://handbrake.fr/)**             |  🆓²  | [🟡](#-media-utilities "Light/Dark mode") |                          ❌                           |                              ❌                              | `winget install -e --id thehandbraketeam.handbrake` |   ❌    |
-|            **[Mp3Tag](https://www.mp3tag.de/en/)**            |  🆓   |                     ❌                     |                          ❌                           | [✔️](https://www.microsoft.com/store/productId/9NN77TCQ1NC8) |       `winget install -e --id Mp3tag.Mp3tag`        |   ❌    |
-|       **[VB-AudioCable](https://vb-audio.com/Cable/)**        |  🆓   |                     ❌                     |                          ❌                           |                              ❌                              |                          ❌                          |   ❌    |
-| **[Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm)** |  🆓   |                     ❌                     |                          ❌                           |                              ❌                              | `winget install -e --id VB-Audio.VoiceMeeterPotato` |   ❌    |
+|             Application             | Price |              Themes               | Plugins | MS Store |                  Winget                  |                                                                        Mobile                                                                         |
+|:-----------------------------------:|:-----:|:---------------------------------:|:-------:|:--------:|:----------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **[Discord](https://discord.com/)** |  🆓   | [🟡](#-discord "Light/Dark mode") |    ❌    |    ❌     | `winget install -e --id Discord.Discord` | [🤖](https://play.google.com/store/apps/details?id=com.discord&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/discord-talk-chat-hangout/id985746746) |
+|  **[PreMid](https://premid.app/)**  |  🆓²  |                 ❌                 |    ❌    |    ❌     |                    ❌                     |                                                                           ❌                                                                           |
 
 </br>
 
@@ -216,12 +232,14 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 </br>
 
-### 💬 Discord
+### 🗄️ File Explorer Utilities
 
-|             Application             | Price |              Themes               | Plugins | MS Store |                  Winget                  |                                                                        Mobile                                                                         |
-|:-----------------------------------:|:-----:|:---------------------------------:|:-------:|:--------:|:----------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-| **[Discord](https://discord.com/)** |  🆓   | [🟡](#-discord "Light/Dark mode") |    ❌    |    ❌     | `winget install -e --id Discord.Discord` | [🤖](https://play.google.com/store/apps/details?id=com.discord&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/discord-talk-chat-hangout/id985746746) |
-|  **[PreMid](https://premid.app/)**  |  🆓²  |                 ❌                 |    ❌    |    ❌     |                    ❌                     |                                                                           ❌                                                                           |
+|                           Application                            | Price |                                  Themes                                  |                          Plugins                           |                                 MS Store                                  |                        Winget                        | Mobile |
+|:----------------------------------------------------------------:|:-----:|:------------------------------------------------------------------------:|:----------------------------------------------------------:|:-------------------------------------------------------------------------:|:----------------------------------------------------:|:------:|
+|               **[7-Zip](https://www.7-zip.org/)**                |  🆓²  | [🟡](https://github.com/huanrenfeng/7zipDarkmode "Unofficial dark mode") |                             ❌                              | [🟡](https://www.microsoft.com/store/productId/9MZ81RMK8JFD "Unofficial") |          `winget install -e --id 7zip.7zip`          |   ❌    |
+| **[File Converter](https://file-converter.org/?from=readme.md)** |  🆓²  |                                    ❌                                     |                             ❌                              |                                     ❌                                     | `winget install -e --id FileConverter.FileConverter` |   ❌    |
+|         **[Files](https://files-community.github.io/)**          |  🆓²  |     [🟡](#️-file-explorer-utilities "Light/Dark mode, Fluent design")     |                             ❌                              |        [✔️](https://www.microsoft.com/store/productId/9NGHP3DX8HDX)        |    `winget install -e --id Files-Community.Files`    |   ❌    |
+|           **[QTTabBar](http://qttabbar.wikidot.com/)**           |  🆓   |                                    ❌                                     | [✔️](#️-file-explorer-utilities "Selectable plugins in app") |                                     ❌                                     |                          ❌                           |   ❌    |
 
 </br>
 
@@ -229,36 +247,15 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 |                           Application                           | Price |                                Themes                                |                               Plugins                                |                          MS Store                           | Winget |            Mobile             |
 |:---------------------------------------------------------------:|:-----:|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-----------------------------------------------------------:|:------:|:-----------------------------:|
-| **[Lively Wallpaper](https://rocksdanister.github.io/lively/)** |  🆓²  |           [🟡](#-desktop "Light/Dark mode, Fluent design")           |                                  ❌                                   | [✔️](https://www.microsoft.com/store/productId/9NTM2QC6QWS7) |   ❌    |                               |
+| **[Lively Wallpaper](https://rocksdanister.github.io/lively/)** |  🆓²  |           [🟡](#-desktop "Light/Dark mode, Fluent design")           |                                  ❌                                   | [✔️](https://www.microsoft.com/store/productId/9NTM2QC6QWS7) |   ❌    |               ❌               |
 |           **[Rainmeter](https://www.rainmeter.net/)**           |  🆓²  | [🟡](https://visualskins.com/ "Many more skins across the internet") | [🟡](https://visualskins.com/ "Many more skins across the internet") |                              ❌                              |   ❌    |               ❌               |
 |           **[Wallpaper Engine](https://premid.app/)**           |  🆓   |              [🟡](#-desktop "Selectable themes in app")              |                                  ❌                                   |                              ❌                              |   ❌    | [🤖](#-desktop "Coming Soon") |
 
 </br>
 
-### 📝 Note Taking
+### 📶 Remote Control
 
-|                Application                | Price |                     Themes                     |                      Plugins                      |                          MS Store                           |                     Winget                     |                                                                                Mobile                                                                                |
-|:-----------------------------------------:|:-----:|:----------------------------------------------:|:-------------------------------------------------:|:-----------------------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| **[Simplenote](https://simplenote.com/)** |  🆓   |     [🟡](#-note-taking "Light/Dark mode")      |                         ❌                         | [✔️](https://www.microsoft.com/store/productId/9NXQQ40LDW3X) | `winget install -e --id Automattic.Simplenote` | [🤖](https://play.google.com/store/apps/details?id=com.automattic.simplenote&hl=en&gl=US) [🍎](https://apps.apple.com/it/app/simplenote-notes-and-todos/id289429962) |
-|   **[Obsidian](https://obsidian.md/)**    |  🆓   | [🟡](#-note-taking "Selectable themes in app") |         [✔️](https://obsidian.md/plugins)          |                              ❌                              |   `winget install -e --id Obsidian.Obsidian`   |        [🤖](https://play.google.com/store/apps/details?id=md.obsidian&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)         |
-|   **[Joplin](https://joplinapp.org/)**    |  🆓²  | [🟡](#-note-taking "Selectable themes in app") | [✔️](https://discourse.joplinapp.org/c/plugins/18) |                              ❌                              |     `winget install -e --id Joplin.Joplin`     |               [🤖](https://play.google.com/store/apps/details?id=net.cozic.joplin&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/joplin/id1315599797)               |
-
-</br>
-
-### Music and Sound
-
-- SoundPad
-- Touch Portal
-
-</br>
-
-### Development
-
-- Local
-
-</br>
-
-### Remote Control
-
-- AnyDesk
-- TeamViewer
+|                   Application                    | Price | Themes | Plugins | MS Store |                        Winget                        |                                                                               Mobile                                                                               |
+|:------------------------------------------------:|:-----:|:------:|:-------:|:--------:|:----------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|      **[AnyDesk](https://anydesk.com/en)**       |  🆓   |   ❌    |    ❌    |    ❌     | `winget install -e --id AnyDeskSoftwareGmbH.AnyDesk` |        [🤖](https://play.google.com/store/apps/details?id=com.anydesk.anydeskandroid&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/anydesk/id1176131273)         |
+| **[TeamViewer](https://www.teamviewer.com/it/)** |  🆓   |   ❌    |    ❌    |    ❌     |    `winget install -e --id TeamViewer.TeamViewer`    | [🤖](https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US) [🍎](https://apps.apple.com/us/app/teamviewer/id692035811) |
