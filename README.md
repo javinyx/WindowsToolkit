@@ -204,8 +204,8 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 |                      Application                      | Price |                     Themes                      |                    Plugins                    | MS Store |                   Winget                   |                           Mobile                           |
 |:-----------------------------------------------------:|:-----:|:-----------------------------------------------:|:---------------------------------------------:|:--------:|:------------------------------------------:|:----------------------------------------------------------:|
-|     **[Pegasus](https://pegasus-frontend.org/)**      |  🆓²  | [✔️](https://pegasus-frontend.org/tools/themes/) |                       ❌                       |    ❌     | `winget install -e --id Playnite.Playnite` |                             ❌                              |
-| **[Playnite](https://github.com/microsoft/terminal)** |  🆓²  |  [✔️](https://playnite.link/forum/forum-8.html)  | [✔️](https://playnite.link/forum/forum-6.html) |    ❌     |                     ❌                      | [🤖](https://github.com/mmatyas/pegasus-frontend/releases) |
+|     **[Pegasus](https://pegasus-frontend.org/)**      |  🆓²  | [✔️](https://pegasus-frontend.org/tools/themes/) |                       ❌                       |    ❌     |                     ❌                      | [🤖](https://github.com/mmatyas/pegasus-frontend/releases) |
+| **[Playnite](https://github.com/microsoft/terminal)** |  🆓²  |  [✔️](https://playnite.link/forum/forum-8.html)  | [✔️](https://playnite.link/forum/forum-6.html) |    ❌     | `winget install -e --id Playnite.Playnite` |                             ❌                              |
 
 </br>
 
