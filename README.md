@@ -117,8 +117,8 @@ If you would like to provide feedback please do so by using GitHub Issues.
 
 |                           Application                            | Price |                         Themes                         | Plugins |                          MS Store                           |                       Winget                       | Mobile |
 |:----------------------------------------------------------------:|:-----:|:------------------------------------------------------:|:-------:|:-----------------------------------------------------------:|:--------------------------------------------------:|:------:|
-| **[Fluent Terminal](https://github.com/felixse/FluentTerminal)** |  🆓²  | [🟡](#-terminals "Fluent design, Customizable themes") |    ❌    | [✔️](https://www.microsoft.com/store/productId/9P2KRLMFXF9T) | `winget install -e --id Microsoft.WindowsTerminal` |   ❌    |
-|  **[Windows Terminal](https://github.com/microsoft/terminal)**   |  🆓²  | [🟡](#-terminals "Fluent design, Customizable themes") |    ❌    | [✔️](https://www.microsoft.com/store/productId/9N0DX20HK701) |                         ❌                          |   ❌    |
+| **[Fluent Terminal](https://github.com/felixse/FluentTerminal)** |  🆓²  | [🟡](#-terminals "Fluent design, Customizable themes") |    ❌    | [✔️](https://www.microsoft.com/store/productId/9P2KRLMFXF9T) |                     ❌                         |   ❌   |
+|  **[Windows Terminal](https://github.com/microsoft/terminal)**   |  🆓²  | [🟡](#-terminals "Fluent design, Customizable themes") |    ❌    | [✔️](https://www.microsoft.com/store/productId/9N0DX20HK701) | `winget install -e --id Microsoft.WindowsTerminal` |   ❌   |
 
 </br>
 
