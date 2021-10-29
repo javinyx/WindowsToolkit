@@ -232,7 +232,6 @@ If you would like to provide feedback please do so by using GitHub Issues.
 |                              **[ShareX](https://getsharex.com/)**                              |  🆓²  |    [🟡](#-windows-enhancements "Selectable themes in app")    |    ❌    | [✔️](https://www.microsoft.com/store/productId/9NBLGGH4Z1SP) |          `winget install -e --id ShareX.ShareX`          |                                                   ❌                                                   |
 |                       **[SoundSwitch](https://soundswitch.aaflalo.me)**                        |  🆓²  |                               ❌                               |    ❌    |                              ❌                              |    `winget install -e --id AntoineAflalo.SoundSwitch`    |                                                   ❌                                                   |
 
-
 </br>
 
 ### 🗄️ File Explorer Utilities
