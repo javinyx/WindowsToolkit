@@ -135,7 +135,7 @@ If you would like to provide feedback please do so by using GitHub Issues.
 |                    Application                    | Price |                    Themes                     |                     Plugins                      | MS Store |                      Winget                      | Mobile |
 |:-------------------------------------------------:|:-----:|:---------------------------------------------:|:------------------------------------------------:|:--------:|:------------------------------------------------:|:------:|
 |     **[Deluge](https://deluge-torrent.org/)**     |  🆓²  | [🟡](#-torrent-clients "Customizable themes") | [✔️](https://dev.deluge-torrent.org/wiki/Plugins) |    ❌     |    `winget install -e --id DelugeTeam.Deluge`    |   ❌    |
-| **[qBitTorrent](https://github.com/ffftp/ffftp)** |  🆓²  | [🟡](#-torrent-clients "Customizable themes") |                        ❌                         |    ❌     | `winget install -e --id qBittorrent.qBittorrent` |   ❌    |
+| **[qBitTorrent](https://www.qbittorrent.org/)** |  🆓²  | [🟡](#-torrent-clients "Customizable themes") |                        ❌                         |    ❌     | `winget install -e --id qBittorrent.qBittorrent` |   ❌    |
 
 </br>
 
@@ -205,7 +205,7 @@ If you would like to provide feedback please do so by using GitHub Issues.
 |                      Application                      | Price |                     Themes                      |                    Plugins                    | MS Store |                   Winget                   |                           Mobile                           |
 |:-----------------------------------------------------:|:-----:|:-----------------------------------------------:|:---------------------------------------------:|:--------:|:------------------------------------------:|:----------------------------------------------------------:|
 |     **[Pegasus](https://pegasus-frontend.org/)**      |  🆓²  | [✔️](https://pegasus-frontend.org/tools/themes/) |                       ❌                       |    ❌     |                     ❌                      | [🤖](https://github.com/mmatyas/pegasus-frontend/releases) |
-| **[Playnite](https://github.com/microsoft/terminal)** |  🆓²  |  [✔️](https://playnite.link/forum/forum-8.html)  | [✔️](https://playnite.link/forum/forum-6.html) |    ❌     | `winget install -e --id Playnite.Playnite` |                             ❌                              |
+| **[Playnite](https://playnite.link/)** |  🆓²  |  [✔️](https://playnite.link/forum/forum-8.html)  | [✔️](https://playnite.link/forum/forum-6.html) |    ❌     | `winget install -e --id Playnite.Playnite` |                             ❌                              |
 
 </br>
 
@@ -251,7 +251,7 @@ If you would like to provide feedback please do so by using GitHub Issues.
 |:---------------------------------------------------------------:|:-----:|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-----------------------------------------------------------:|:------:|:-----------------------------:|
 | **[Lively Wallpaper](https://rocksdanister.github.io/lively/)** |  🆓²  |           [🟡](#-desktop "Light/Dark mode, Fluent design")           |                                  ❌                                   | [✔️](https://www.microsoft.com/store/productId/9NTM2QC6QWS7) |   ❌    |               ❌               |
 |           **[Rainmeter](https://www.rainmeter.net/)**           |  🆓²  | [🟡](https://visualskins.com/ "Many more skins across the internet") | [🟡](https://visualskins.com/ "Many more skins across the internet") |                              ❌                              |   ❌    |               ❌               |
-|           **[Wallpaper Engine](https://premid.app/)**           |  🆓   |              [🟡](#-desktop "Selectable themes in app")              |                                  ❌                                   |                              ❌                              |   ❌    | [🤖](#-desktop "Coming Soon") |
+|   **[Wallpaper Engine](https://www.wallpaperengine.io/en)**    |  **€ 3.99**   |              [🟡](#-desktop "Selectable themes in app")              |                                  ❌                                   |                              ❌                              |   ❌    | [🤖](#-desktop "Coming Soon") |
 
 </br>
 
